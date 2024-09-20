@@ -1,0 +1,29 @@
+body{overflow: hidden;
+background-color: rgb(193, 223, 198);
+border: 0;
+margin: 0;
+padding: 0;
+}
+#gamescreen{
+    position: fixed;
+    left: 0px;
+    top: 0px;
+}
+#background{
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    z-index: -1;
+
+}
+#gameoverbox{
+    color: white;
+    position: fixed;
+    z-index: 1;
+    width: 400px ;
+    height: 200px;
+    top: 400px;
+    display: flex;
+  justify-content: center;  
+  align-items: flex-end;
+}
